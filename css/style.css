@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-image: linear-gradient(#B4BAC6,#F3EFE9);
+    margin: 0 4vw 0 4vw;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 6rem;
+    margin-bottom: 44px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #F3EFE9;
+}
+
+#textcontent p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #3B424B;
+}
+
+strong{
+    font-size: 1.5rem;
+}
+
+
+#hello{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+
+#gif{
+    width: 140px;
+    display: inline-block;
+    position: relative;
+    left: 1rem;
+}
+
+#icon{
+    width: 100px;
+}
+
+#menu{
+    width:1.5rem;
+}
+
+#arrow{
+    display: block;
+    position: relative;
+    margin: 3rem auto 6rem;
+}
+
+#links{
+    margin:0 1rem;
+}
+
+#image img{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+#button img{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-left: 4.5%; 
+    margin-right: 0;
+}
+
+#home{
+    margin: 3rem 0 0 0;
+    padding: 0 0rem 0 0rem;
+}
+
+#iam{
+    margin: 4rem 0;
+}
+
+#iam p{
+    margin-bottom: 1rem;
+}
+
+#landing{
+    display:none;
+}
+
+#nav{
+    margin: 44px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#lgnav{
+    display: none;
+}
+
+#about img{
+    width: 70%;
+    display: block;
+    position: relative;
+    margin: 3rem auto 3rem;
+}
+
+body#whitebg{
+    background-image: none;
+    background-color: #fcfcfc;
+}
+
+#about h1{
+    color: #3B424B;
+    text-align: start;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tag{
+    display: block;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.tag ul{
+    /* list-style-type: none; */
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.tag ul li{
+    /* list-style: none; */
+    display: block;
+    color: #fcfcfc;
+    background-color: #B4BAC6;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 15%;
+}
+.tag ul li span{
+    font-family: "Jost", sans-serif;
+}
+
+.tag ul li#first:hover span,
+.tag ul li#second:hover span,
+.tag ul li#third:hover span,
+.tag ul li#forth:hover span{
+    display: none;
+}
+
+.tag ul li#first:hover::before{
+    content:"warm, idealistic, creative, social";
+    font-family: "Jost", sans-serif;
+}
+
+.tag ul li#second:hover::before{
+    content:"born in the States, raised in China";
+    font-family: "Jost", sans-serif;
+}
+
+.tag ul li#third:hover::before{
+    content:"ask me for product recommendations:)";
+    font-family: "Jost", sans-serif;
+}
+
+.tag ul li#forth:hover::before{
+    content:"ambitious, leaders, passionate, energetic";
+    font-family: "Jost", sans-serif;
+}
+
+/* form */
+  
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  legend{ 
+    font-size: 125%;
+    font-style:italic;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  label{
+    display: inline-block;
+    margin-right:10px;
+    width:15%;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  form span{
+    margin-left:20%;
+    font-family: italic;
+    font-weight: bold;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 35vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=checkbox]{
+      display:inline;
+      width:inherit;
+  }
+  
+  input[type=submit] {
+    background-color: #38803C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+@media (min-width: 768px){
+    #about{
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+    }
+
+    #about img{
+        width:90%;
+    }
+
+    #lgnav{
+        display: block;
+    }
+
+    #lgnav ul{
+        list-style-type: none;
+    }
+
+    #lgnav ul li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    #lgnav li a{
+        display: block;
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        color:#fcfcfc;
+        text-align: right;
+        font-size:18px;
+        font-weight: 400;
+        padding-left: 2rem;
+    }
+
+    #lgnav li a:hover {
+        color: #7D8799;
+    }
+    
+    #lgnav li.active a{
+        color: #3B424B;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    body#whitebg #lgnav li a{
+        color:#B4BAC6;
+    }
+
+    body#whitebg #lgnav li a:hover {
+        color: #7D8799;
+    }
+
+    body#whitebg #lgnav li.active a{
+        color: #3B424B;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+}
+
+
+/* large screen */
+@media (min-width: 992px){
+
+    body{
+        margin: 0 8vw 0 8vw;
+    }
+
+    #landing{
+        display:block;
+        margin-top: 2rem;
+    }
+
+    #landing img{
+        width:100%;
+    }
+
+    #gif{
+        display:none;
+    }
+
+    #links{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #nonlanding{
+        padding-left: 3rem;
+    }
+
+    #textcontent p{
+        margin-bottom: 2rem;
+    }
+
+    #textcontent{
+        margin-top: 0;
+        margin-left: 3rem;
+    }
+
+    #home{
+        margin-top: 2.5rem;
+    }
+
+    #about img{
+        width:23rem;
+    }
+}
